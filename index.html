@@ -21,41 +21,48 @@
   </head>
 
   <body>
-    <div class="top-banner">
-      <div class="banner-text container">
-        <!-- 📣Figma prototype testing just got a whole lot better! Read more → -->
+    <div>
+      <div class="top-banner">
+        <div class="banner-text flex container">
+          <a href="mailto:info@trawelplayhospitality.com"><span><i class="fa-solid fa-envelope fa-bounce fa-xl" style="color: #ffffff;"></i> &nbsp; info@trawelplayhospitality.com</span></a>
+          <a href="tel:+919929431922"><span><i class="fa-solid fa-phone fa-shake fa-xl" style="color: #ffffff;"></i> +91 99294 31922</span></a>
+        </div>
       </div>
+      <nav>
+        <div class="main-nav container flex">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="asset/TrawePlay png.png" alt="TrawelPlay Logo"
+            /></a>
+          </div>
+  
+          <div class="flex">
+            <ul class="nav-links flex" id="nav-links">
+              <li><a href="#" class="hover-links"> Home </a></li>
+              <li>
+                <a href="#cta-section" class="hover-links" onclick="document.querySelector('#cta-section').scrollIntoView({ behavior: 'smooth' }); return false;">
+                  Tour Packages
+                </a>
+              </li>
+              <li><a href="#" class="hover-links"> Cab Services </a></li>
+              <li><a href="#" class="hover-links"> Contact Us </a></li>
+              <li><a href="#" class="hover-links"> About Us </a></li>
+              <!-- <li><a href="#" class="hover-links primary-button"> Sign in </a></li>
+                      <li><a href="#" class="hover-links secondary-button"> Sign up </a></li> -->
+            </ul>
+            <a href="#" class="nav-toggle hover-links" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
 
-    <nav>
-      <div class="main-nav container flex">
-        <div class="logo">
-          <a href="index.html"
-            ><img src="asset/TrawePlay png.png" alt="TrawelPlay Logo"
-          /></a>
-        </div>
-
-        <div class="flex">
-          <ul class="nav-links flex" id="nav-links">
-            <li><a href="#" class="hover-links"> Home </a></li>
-            <li><a href="#" class="hover-links"> Tours Packages </a></li>
-            <li><a href="#" class="hover-links"> Cab Services </a></li>
-            <li><a href="#" class="hover-links"> Contact Us </a></li>
-            <li><a href="#" class="hover-links"> About Us </a></li>
-            <!-- <li><a href="#" class="hover-links primary-button"> Sign in </a></li>
-                    <li><a href="#" class="hover-links secondary-button"> Sign up </a></li> -->
-          </ul>
-          <a href="#" class="nav-toggle hover-links" id="nav-toggle">
-            <i class="fa-solid fa-bars"></i>
-          </a>
-        </div>
-      </div>
-    </nav>
 
     <header>
       <div class="header-section container flex">
         <div class="header-left">
-          <h2>Your Premier B2B Travel services Partner</h2>
+          <h2>Your Premier <span style="color: #f79633;">B2B Travel</span> services Partner</h2>
           <ul class="welcome-points">
             <li>
               Trawelplay Hospitality, India's trusted B2B Travel Partner. We
@@ -80,7 +87,7 @@
     <section>
       <div class="small-body-text container">
         <h2>
-        Trusted by 500+ B2C travel agencies across Pan India DMC with industry-leading unbeatable rates and services.
+        Trusted by <span style="color: #f79633;">500+ B2C travel agencies</span> across Pan India DMC with industry-leading unbeatable rates and services.
         </h2>
         <p>
           Experience unparalleled travel services through our vast network of
@@ -99,10 +106,19 @@
       </div>
     </section>
 
-    <section class="big-feature-section">
+
+
+
+
+    
+    <section class="animation-section">
+
+    
+
+    <section class="big-/section>feature-section">
       <div class="big-feature-container1 container flex">
         <div class="side-left">
-          <h2>Why TrawelPlay Hospitality is your Ideal B2B Travel Partner</h2>
+          <h2>Why <span style="color: #f79633;">TrawelPlay Hospitality</span> is your Ideal B2B Travel Partner</h2>
           <ul class="welcome-points">
             <li>Unbeatable rates for hotels, flights, and packages</li>
             <li>Services across Pan India DMC</li>
@@ -124,63 +140,73 @@
       </div>
     </section>
 
-    <section class="cta-section flex">
+    <section class="cta-section flex" id="cta-section">
       <div class="exapmle-header flex">
         <h2>Tour Packages</h2>
-        <!-- <div class="primary-button"> See more examples</div> -->
       </div>
 
-      <div class="examples-card flex container">
+      <div class="tour-card flex container">
         <!-- New -->
         <a href="#" class="packages-card">
-          <img src="asset/kedar.jpg" alt="Jaipur" />
+          <img src="asset/goa.jpg" alt="goa" />
           <div class="flexCard">
-            <b>4 Dham | Uttarakhand</b>
+            <b>Goa Beaches</b>
           </div>
-          <!-- <div class="locataion">
-                        <i class="fa-solid fa-indian-rupee-sign"></i>
-                        <span> 23000/-</span>
-                    </div> -->
         </a>
+
         <a href="#" class="packages-card">
-          <img src="asset/ladakh.jpg" alt="Jaipur" />
+          <img src="asset/ladakh.jpg" alt="ladakh" />
           <div class="flexCard">
             <b>Leh Ladakh</b>
           </div>
-          <!-- <div class="locataion">
-                        <i class="fa-solid fa-indian-rupee-sign"></i>
-                        <span> 23000/-</span>
-                    </div> -->
         </a>
 
         <a href="#" class="packages-card">
-          <img src="asset/spiti.jpg" alt="Jaipur" />
+          <img src="asset/kashmir.jpg" alt="kashmir" />
+          <div class="flexCard">
+            <b>Kashmir</b>
+          </div>
+        </a>
+
+
+        <a href="#" class="packages-card">
+          <img src="asset/andaman.jpg" alt="andaman" />
+          <div class="flexCard">
+            <b>Andaman</b>
+          </div>
+        </a>
+
+
+
+        <a href="#" class="packages-card">
+          <img src="asset/kedar.jpg" alt="kedar" />
+          <div class="flexCard">
+            <b>4 Dham | Uttarakhand</b>
+          </div>
+        </a>
+
+        
+
+        <a href="#" class="packages-card">
+          <img src="asset/spiti.jpg" alt="spiti" />
           <div style="margin-inline: 5px">
             <div class="flexCard">
               <b>Spiti & Himachal Pradesh</b>
             </div>
-            <!-- <div class="locataion">
-                        <i class="fa-solid fa-indian-rupee-sign"></i>
-                        <span> 20000/-</span
-                    ></div> -->
           </div>
         </a>
 
         <a href="#" class="packages-card">
-          <img src="asset/rajasthan-.jpg" alt="Jaipur" />
+          <img src="asset/rajasthan-.jpg" alt="-" />
           <div style="margin-inline: 5px">
             <div class="flexCard">
               <b>Rangilo Rajasthan</b>
             </div>
-            <!-- <div class="locataion">
-                        <i class="fa-solid fa-indian-rupee-sign"></i>
-                        <span> 25000/-</span>
-                    </div> -->
           </div>
         </a>
 
         <a href="#" class="packages-card">
-          <img src="asset/south.jpg" alt="Jaipur" />
+          <img src="asset/south.jpg" alt="south" />
           <div style="margin-inline: 5px">
             <div class="flexCard">
               <b>South India Tours</b>
@@ -196,10 +222,9 @@
 
     <section class="feature-section">
       <div class="container">
-        <div class="feature-header flex">
-          <h2>Our Services</h2>
-          <a href="#" class="primary-button">Explore Services →</a>
-        </div>
+        <h2 class="feature-header flex">
+          Our Services
+        </h2>
 
         <div class="feature-area flex">
           <div class="feature-card flex">
@@ -302,7 +327,7 @@
             <div class="list1">
               <ul>
                 <li>500+ B2B travel partners</li>
-                <li>10,000+ hotel network</li>
+                <li>10,000+ Hotel network</li>
                 <li>Pan India DMC coverage</li>
               </ul>
             </div>
@@ -375,9 +400,8 @@
             <div class="footer-section">
               <h3 class="footer-heading">Contact Us</h3>
               <ul class="footer-contact">
-                <li><i class="fas fa-phone"></i> +91 1234567890</li>
-                <li><i class="fas fa-envelope"></i> info@trawelplay.com</li>
-                <li><i class="fas fa-map-marker-alt"></i> Delhi, India</li>
+                <li><a href="tel:+919929431922"><i class="fas fa-phone"></i> +91 1234567890</a></li>
+                <li><a href="mailto:info@trawelplayhospitality.com"><i class="fas fa-envelope"></i> info@trawelplayhospitality.com</a></li>
               </ul>
             </div>
           </div>
@@ -401,7 +425,7 @@
       </div>
     </div>
 
-    <a href="tel:+1234567890" class="floating-call-btn">
+    <a href="tel:+919929431922" class="floating-call-btn">
       <i class="fa fa-phone"></i>
     </a>
 
