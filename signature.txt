@@ -1,0 +1,156 @@
+    <!-- <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 20px; border-top: 2px solid #f79633; padding-top: 20px;">
+      <table cellpadding="0" cellspacing="0" style="width: 100%;">
+        <tr>
+          <td style="vertical-align: top; padding-right: 20px;">
+            <img src="asset/TrawePlay png.png" alt="TrawelPlay Logo" style="width: 150px; margin-bottom: 10px;">
+            <p style="margin: 5px 0; font-size: 16px; color: #333;"><strong>Your Name</strong></p>
+            <p style="margin: 5px 0; font-size: 14px; color: #666;">Business Development Manager</p>
+          </td>
+          <td style="vertical-align: top;">
+            <p style="margin: 5px 0; font-size: 14px; color: #666;">
+              <i class="fa-solid fa-phone"></i> +91 99294 31922<br>
+              <i class="fa-solid fa-envelope"></i> info@trawelplayhospitality.com<br>
+              <i class="fa-solid fa-globe"></i> www.trawelplayhospitality.com
+            </p>
+            <div style="margin-top: 10px;">
+              <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-facebook" style="color: #1877f2; font-size: 18px;"></i></a>
+              <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-instagram" style="color: #e4405f; font-size: 18px;"></i></a>
+              <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-linkedin" style="color: #0077b5; font-size: 18px;"></i></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div></div></td></div> -->
+
+<!-- 
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 20px; border-top: 2px solid #f79633; padding-top: 20px;">
+  <table cellpadding="0" cellspacing="0" style="width: 100%;">
+    <tr>
+      <td style="vertical-align: top; padding-right: 20px;">
+        <img src="asset/TrawePlay png.png" alt="TrawelPlay Logo" style="width: 150px; margin-bottom: 10px;">
+        <p style="margin: 5px 0; font-size: 16px; color: #333;"><strong>Your Name</strong></p>
+        <p style="margin: 5px 0; font-size: 14px; color: #666;">Business Development Manager</p>
+      </td>
+      <td style="vertical-align: top;">
+        <p style="margin: 5px 0; font-size: 14px; color: #666;">
+          <i class="fa-solid fa-phone"></i> +91 99294 31922<br>
+          <i class="fa-solid fa-envelope"></i> info@trawelplayhospitality.com<br>
+          <i class="fa-solid fa-globe"></i> www.trawelplayhospitality.com
+        </p>
+        <div style="margin-top: 10px;">
+          <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-facebook" style="color: #1877f2; font-size: 18px;"></i></a>
+          <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-instagram" style="color: #e4405f; font-size: 18px;"></i></a>
+          <a href="#" style="text-decoration: none; margin-right: 10px;"><i class="fab fa-linkedin" style="color: #0077b5; font-size: 18px;"></i></a>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div></div></td></div>
+
+
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+  <img src="asset/TrawePlay png.png" alt="TrawelPlay Logo" style="width: 200px; margin-bottom: 20px;">
+  
+  <div style="border-top: 3px solid #f79633; padding-top: 20px; margin-bottom: 20px;">
+    <h2 style="color: #333; margin-bottom: 15px;">Your Premier B2B Travel Services Partner</h2>
+    <p style="color: #666; line-height: 1.6; margin-bottom: 15px;">
+      Welcome to TrawelPlay Hospitality, India's trusted B2B Travel Partner. We specialize in providing:
+    </p>
+    <ul style="color: #666; line-height: 1.6; margin-bottom: 20px;">
+      <li>Premium tour packages across India</li>
+      <li>Professional transport services</li>
+      <li>Luxury hotel bookings</li>
+      <li>Expert guide services</li>
+      <li>24/7 dedicated support</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #f8f8f8; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+    <p style="color: #333; margin: 0;">Contact us:</p>
+    <p style="margin: 5px 0;">
+      <i class="fa-solid fa-phone"></i> +91 99294 31922<br>
+      <i class="fa-solid fa-envelope"></i> info@trawelplayhospitality.com<br>
+      <i class="fa-solid fa-globe"></i> www.trawelplayhospitality.com
+    </p>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="#" style="display: inline-block; margin: 0 10px; color: #f79633;"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="#" style="display: inline-block; margin: 0 10px; color: #f79633;"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#" style="display: inline-block; margin: 0 10px; color: #f79633;"><i class="fab fa-linkedin fa-2x"></i></a>
+  </div>
+
+  <div style="font-size: 12px; color: #999; text-align: center; margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px;">
+    This email was sent by TrawelPlay Hospitality. Please do not reply to this email.
+  </div>
+</div></div>
+
+
+<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 30px; border: 1px solid #ddd; border-radius: 12px; background: linear-gradient(to bottom, #ffffff, #f9f9f9);">
+  <div style="text-align: center; margin-bottom: 30px;">
+    <img src="asset/TrawePlay png.png" alt="TrawelPlay Logo" style="width: 200px;">
+    <h1 style="color: #333; margin: 15px 0; font-size: 24px;">Your Premier B2B Travel Partner in India</h1>
+  </div>
+  
+  <div style="border-top: 3px solid #f79633; padding-top: 25px; margin-bottom: 25px;"></div>
+    <p style="color: #333; margin-bottom: 20px; font-size: 16px;">Dear Valued Partner,</p>
+    
+    <p style="color: #444; line-height: 1.8; margin-bottom: 20px; font-size: 15px;">
+      I'm Mohit Chandwani, founder of Trawelplay Hospitality. We've established ourselves as India's most trusted B2B travel partner, 
+      serving over 500+ satisfied travel agencies across the nation. Our commitment to excellence has made us the preferred choice for 
+      travel businesses seeking reliable, premium, and cost-effective travel solutions.
+    </p>
+
+    <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 20px 0;">
+      <h3 style="color: #f79633; margin-bottom: 15px;">What Sets Us Apart:</h3>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;"></div>
+        <ul style="color: #555; line-height: 1.8; margin: 0; padding-left: 20px;">
+          <li>Access to 10,000+ premium hotels</li>
+          <li>Pan India presence in 22+ states</li>
+          <li>Coverage of 200+ destinations</li>
+          <li>Best-in-class B2B rates</li>
+        </ul>
+        <ul style="color: #555; line-height: 1.8; margin: 0; padding-left: 20px;">
+          <li>24/7 dedicated support team</li>
+          <li>Real-time inventory access</li>
+          <li>Customized travel packages</li>
+          <li>Seamless booking platform</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 25px 0;">
+      <h3 style="color: #333; margin-bottom: 15px;">Our Premium Services Include:</h3>
+      <p style="color: #666; line-height: 1.7;">
+        ✓ Luxury hotel bookings<br>
+        ✓ Customized tour packages<br>
+        ✓ Professional transport services<br>
+        ✓ Expert local guides<br>
+        ✓ Flight bookings<br>
+        ✓ Adventure tours
+      </p>
+    </div>
+  </div>
+
+  <div style="background: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
+    <h3 style="color: #f79633; margin-bottom: 15px;">Connect With Us:</h3>
+    <p style="margin: 5px 0; line-height: 1.8;">
+      <i class="fa-solid fa-phone"></i> +91 99294 31922<br>
+      <i class="fa-solid fa-envelope"></i> mohit@trawelplayhospitality.com<br>
+      <i class="fa-solid fa-globe"></i> www.trawelplayhospitality.com<br>
+      <i class="fa-solid fa-location-dot"></i> 212, 2nd Floor Okay Plus Kailash Tower, Durgapura Tonk Road
+    </p>
+  </div>
+
+  <div style="text-align: center; margin: 25px 0;">
+    <a href="#" style="display: inline-block; margin: 0 15px; color: #1877f2;"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="#" style="display: inline-block; margin: 0 15px; color: #e4405f;"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#" style="display: inline-block; margin: 0 15px; color: #0077b5;"><i class="fab fa-linkedin fa-2x"></i></a>
+  </div>
+
+  <div style="font-size: 12px; color: #888; text-align: center; margin-top: 25px; border-top: 1px solid #ddd; padding-top: 15px;">
+    <p style="margin: 5px 0;">This is a professional email from TrawelPlay Hospitality. Please do not reply to this email.</p>
+    <p style="color: #4CAF50;">🌿 Please consider the environment before printing this email.</p>
+  </div>
+</div>
+</div> -->
