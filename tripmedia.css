@@ -1,0 +1,193 @@
+/* Medium Screens (992px and below) */
+@media screen and (max-width: 992px) {
+    .itinerary-container {
+        max-width: 95%;
+    }
+    
+    .daily-itinerary {
+        padding-right: 0px;
+    }
+
+    .itinerary-page-header {
+        height: 300px;
+    }
+
+    .itinerary-page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .hotel-option-card {
+        flex: 1 1 300px;
+        min-height: 600px;
+    }
+
+    .card-content{
+        /* min-height: 600px; */
+    }
+    
+    .dayNnight{
+        font-size: 1.1rem;
+        padding-block: 1px;
+        padding-inline: 20px;
+    }
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .itinerary-container {
+        /* max-width: 100%; */
+    }
+
+    .daily-itinerary {
+        padding-right: 0;
+    }
+
+    .packaage-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .packaage-section h2::before,
+    .packaage-section h2::after {
+        width: 100px;
+    }
+
+    .inclusions-exclusions {
+        gap: 30px;
+    }
+
+    .itinerary-page-header {
+        height: 250px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) { 
+    .container{
+        padding: 0px ;
+        margin: 0px ;
+    }
+    .itinerary-container{
+        padding: 10px ;
+        margin: 10px ;
+    }
+
+    .itinerary-option{
+        padding: 0;
+    }
+
+    .hotel-options-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 5px;
+    }
+
+    .hotel-option-card {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        min-height: auto;
+    }
+
+    .card-content {
+        gap: 15px;
+    }
+
+    .hotel-table {
+        display: block;
+        overflow-x: auto;
+        font-size: 0.9rem;
+    }
+
+    .hotel-table td, 
+    .hotel-table th {
+        padding: 8px;
+        white-space: nowrap;
+    }
+
+    .hotel-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pricing-details {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .price-highlight {
+        font-size: 1.1rem;
+    }
+
+    .gst-note {
+        font-size: 0.8rem;
+    }
+
+    /* Rest of your existing 576px media query styles */
+    .itinerary-header h1 {
+        font-size: 1.8rem;
+    }
+    /* ... other existing styles ... */
+}
+
+
+@media screen and (max-width: 400px) { 
+
+    .hotel-options-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .hotel-option-card h4 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .hotel-table {
+        font-size: 0.9rem;
+    }
+
+    .hotel-table td {
+        padding: 8px;
+    }
+
+    .hotel-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pricing-details {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .price-highlight {
+        font-size: 1rem;
+    }
+
+    .gst-note {
+        font-size: 0.8rem;
+    }
+    .container{
+        padding: 0 ;
+    }
+    .itinerary-container{
+        padding: 0 ;
+    }
+    .itinerary-option{
+        margin: 0 ;
+        padding: 0;
+    }
+
+    .daily-itinerary li::before {
+        width: 30px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+    .hotel-option-card {
+        min-height: 350px;
+    }
+}

@@ -251,6 +251,10 @@
     line-height: 1.6;
 }
 
+
+
+
+
 /* Responsive design */
 @media screen and (max-width: 768px) {
     .itinerary-option {
@@ -312,7 +316,7 @@
     flex: 1 1 380px;
     justify-content: space-around;
     overflow: hidden;
-    min-height: 400px;
+    min-height: auto;
     border-radius: 8px;
     border: 1px solid #e9ecef;
     background-color: #fdfdfd;
@@ -322,6 +326,8 @@
 
 .card-content {
     padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-option-card h4 {
@@ -507,5 +513,26 @@
     
     .hotel-options-wrapper {
         flex-direction: column;
+    }
+}
+
+
+
+/* Large Screens (1200px and below) */
+@media screen and (max-width: 1200px) {
+    .itinerary-container {
+        max-width: 90%;
+    }
+    
+    .daily-itinerary {
+        padding-right: 200px;
+    }
+
+    .packaage-section h2::before {
+        left: 15%;
+    }
+
+    .packaage-section h2::after {
+        right: 15%;
     }
 }
