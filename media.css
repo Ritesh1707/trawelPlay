@@ -337,7 +337,20 @@
 
 
 
+@media (max-width: 900px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .about-text, .about-image {
+        flex: 1 1 100%;
+    }
+
+    .team-members {
+        gap: 30px;
+    }
+}
 
 
 

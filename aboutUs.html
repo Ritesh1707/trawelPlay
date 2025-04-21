@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <title>About Us | TrawelPlay</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    </head>
+<body>
+    <div class="pinkBar">
+        <div class="top-banner">
+          <div class="banner-text flex container">
+            <a href="mailto:info@trawelplayhospitality.com"
+              ><span><i
+                    class="fa-solid fa-envelope fa-bounce fa-xl"
+                    style="color: #ffffff;"
+                  ></i
+                  >&nbsp; info@trawelplayhospitality.com</span></a
+            >
+            <a href="tel:+919929431922"
+              ><span><i
+                    class="fa-solid fa-phone fa-shake fa-xl"
+                    style="color: #ffffff;"
+                  ></i
+                  >+91 99294 31922</span></a
+            >
+          </div>
+        </div>
+  
+        <nav>
+          <div class="main-nav container flex">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="asset/TrawePlay png.png" alt="TrawelPlay Logo"
+              /></a>
+            </div>
+  
+            <div class="flex">
+              <ul class="nav-links flex" id="nav-links">
+                <li><a href="#" class="hover-links"> Home </a></li>
+                <li>
+                  <a
+                    href="#cta-section"
+                    class="hover-links"
+                    onclick="document.querySelector('#cta-section').scrollIntoView({ behavior: 'smooth' }); return false;"
+                  >
+                    Tour Packages
+                  </a>
+                </li>
+                <li><a href="#" class="hover-links"> Cab Services </a></li>
+                <li><a href="#" class="hover-links"> Contact Us </a></li>
+                <li><a href="#" class="hover-links"> About Us </a></li>
+                <!-- <li><a href="#" class="hover-links primary-button"> Sign in </a></li>
+                        <li><a href="#" class="hover-links secondary-button"> Sign up </a></li> -->
+              </ul>
+              <a href="#" class="nav-toggle hover-links" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    <section class="about-section">
+        <div class="about-header">
+            <h1>About TrawelPlay</h1>
+            <p>
+                At TrawelPlay, we believe travel is more than just a destination—it's an experience. Our dedicated team works tirelessly to bring you the best travel planning tools, unique experiences, and a vibrant community to share your adventures.
+            </p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Our Mission</h2>
+                <p>To empower travelers worldwide with innovative technology and personalized experiences that make every journey unforgettable.</p>
+                <h2>Our Vision</h2>
+                <p>To be the leading platform that connects explorers with the world's most inspiring destinations and communities.</p>
+                <h2>Our Values</h2>
+                <p>Integrity, innovation, customer focus, and a passion for travel guide everything we do.</p>
+            </div>
+            <div class="about-image">
+                <img src="about-image.jpg" alt="About TrawelPlay" />
+            </div>
+        </div>
+        <div class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/founder1.jpg" alt="Mohit Chandwani" />
+                    <h3>Mohit Chandwani</h3>
+                    <span>Founder & CEO</span>
+                </div>
+                <div class="team-member">
+                    <img src="images/founder2.jpg" alt="Vishal" />
+                    <h3>Vishal</h3>
+                    <span>Business Manager</span>
+                </div>
+                <!-- <div class="team-member">
+                    <img src="images/team3.jpg" alt="Jane Doe" />
+                    <h3>Jane Doe</h3>
+                    <span>Marketing Head</span>
+                </div>
+                <div class="team-member">
+                    <img src="images/team4.jpg" alt="John Smith" />
+                    <h3>John Smith</h3>
+                    <span>Lead Developer</span>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script>
+        const toggleButton = document.getElementById("nav-toggle");
+        const navLinks = document.getElementById("nav-links");
+  
+        toggleButton.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+      </script>
+</body>
+</html>
