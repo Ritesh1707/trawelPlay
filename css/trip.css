@@ -48,16 +48,11 @@
 
 
 /* Header spacing */
-.itinerary-page-header {
-    text-align: center;
-    /* margin: 60px var(--padding-inline-section) 40px; */
-    /* padding-bottom: 30px; */
+.itinerary-page-image {
     margin-block: 30px;
-    border-bottom: 3px solid var(--accent-color);
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("./asset/southIndia.jpg") no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    width: 100;
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
     border-radius: 10px;
 }
 

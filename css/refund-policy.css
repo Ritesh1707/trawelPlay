@@ -1,0 +1,168 @@
+/* Policy Page Layout */
+.policy-header {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+.policy-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.last-updated {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Policy Content Sections */
+.policy-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.policy-intro {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.policy-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.policy-title {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f79633;
+    padding-bottom: 10px;
+}
+
+.policy-text {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Refund Table Styles */
+.refund-table {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-header {
+    background-color: #f79633;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.table-row {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.col-period, .col-charge, .col-refund {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* Policy Lists */
+.policy-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.policy-list li {
+    position: relative;
+    padding: 8px 0 8px 25px;
+}
+
+.policy-list li::before {
+    content: "•";
+    color: #f79633;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+/* Policy Note */
+.policy-note {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+/* Contact Section */
+.policy-contact {
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.contact-card {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.contact-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-card .primary-button {
+    display: inline-block;
+    background-color: #f79633;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.contact-card .primary-button:hover {
+    background-color: #e58522;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .policy-header h1 {
+        font-size: 2rem;
+    }
+
+    .policy-content {
+        padding: 15px;
+    }
+
+    .table-header, .table-row {
+        flex-direction: column;
+    }
+
+    .col-period, .col-charge, .col-refund {
+        padding: 5px 0;
+    }
+
+    .policy-section {
+        padding: 15px;
+    }
+}

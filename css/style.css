@@ -21,7 +21,6 @@ body{
 }
 h1{
     font-size: 3rem;
-    font-weight: 500;
 }
 h2{
     font-size: 2rem;
@@ -324,6 +323,7 @@ header{
     animation: slideInLeft 1s ease-out;
 }
 
+
 .header-left p {
     margin-top: 25px;
     font-size: 1.2rem;
@@ -422,8 +422,7 @@ header{
     gap: 20px;
 }
 
-.logos:nth-child(6){
-}
+
 .logos img{
     height: 45px;
 }
